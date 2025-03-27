@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Scene To Scene.sln"
+    "dotnet.defaultSolution": "ScenetoScene.sln"
 }
