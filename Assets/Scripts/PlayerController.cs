@@ -1,4 +1,5 @@
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -17,6 +18,8 @@ public class PlayerMovement : MonoBehaviour
     }
 
 =======
+=======
+>>>>>>> Stashed changes
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -32,5 +35,8 @@ public class PlayerController : MonoBehaviour
     {
         
     }
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 }
