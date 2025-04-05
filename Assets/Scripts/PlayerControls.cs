@@ -1,8 +1,6 @@
 using UnityEngine;
 
-<<<<<<< Updated upstream
-=======
-public class JumpController : MonoBehaviour
+public class PlayerControls : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -16,4 +14,3 @@ public class JumpController : MonoBehaviour
         
     }
 }
->>>>>>> Stashed changes

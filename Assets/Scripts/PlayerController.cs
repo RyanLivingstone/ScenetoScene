@@ -1,3 +1,22 @@
+<<<<<<< Updated upstream
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class PlayerMovement : MonoBehaviour
+{
+    public float speed = 5f;
+    private Vector2 movement;
+
+
+    void Update()
+    {
+        float input = Input.GetAxis("Horizontal");
+        movement.x = input * speed * Time.deltaTime;
+        transform.Translate(movement);
+    }
+
+=======
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -13,4 +32,5 @@ public class PlayerController : MonoBehaviour
     {
         
     }
+>>>>>>> Stashed changes
 }
