@@ -1,5 +1,3 @@
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -17,8 +15,6 @@ public class PlayerMovement : MonoBehaviour
         transform.Translate(movement);
     }
 
-=======
-=======
 >>>>>>> Stashed changes
 using UnityEngine;
 
@@ -35,8 +31,5 @@ public class PlayerController : MonoBehaviour
     {
         
     }
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+}
 }
