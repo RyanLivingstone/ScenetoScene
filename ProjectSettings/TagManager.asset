@@ -3,9 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
   tags:
   - Spike
+  - Collectible
   layers:
   - Default
   - TransparentFX
@@ -40,7 +40,7 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: New Layer 1
+  - name: Background
     uniqueID: 958994263
     locked: 0
   - name: Default
