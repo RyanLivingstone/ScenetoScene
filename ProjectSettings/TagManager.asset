@@ -8,10 +8,6 @@ TagManager:
   - Collectible
   tags:
   - Spike
-  tags:
-  - Spike
-  tags:
-  - Spike
   layers:
   - Default
   - TransparentFX
