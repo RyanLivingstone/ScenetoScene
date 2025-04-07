@@ -14,7 +14,6 @@ public class PlayerMovement : MonoBehaviour
         movement.x = input * speed * Time.deltaTime;
         transform.Translate(movement);
     }
-
 public class PlayerController : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created

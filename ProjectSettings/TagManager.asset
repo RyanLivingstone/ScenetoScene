@@ -3,11 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
+
   tags:
   - Spike
   - Collectible
-  tags:
-  - Spike
+
   layers:
   - Default
   - TransparentFX
