@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+<<<<<<< HEAD
 public class BoxTrigger : MonoBehaviour
 {
     public string nextSceneName = "NextScene"; // Name of the next scene to load
@@ -16,6 +17,23 @@ public class BoxTrigger : MonoBehaviour
             {
                 // Load the next scene
                 SceneManager.LoadScene(nextSceneName);
+=======
+public class SceneChangeTrigger : MonoBehaviour
+{
+    public string sceneToLoad;
+
+    private void OnTriggerStay2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            float playerBottom = other.bounds.min.y;
+            float triggerTop = GetComponent<Collider2D>().bounds.max.y;
+
+            if (playerBottom > triggerTop)
+            {
+            Debug.Log("Scene trigger activated!");
+            SceneManager.LoadScene(sceneToLoad);
+>>>>>>> Natalie
             }
         }
     }
