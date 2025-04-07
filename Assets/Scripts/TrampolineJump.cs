@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Trampoline : MonoBehaviour
+public class TrampolineJump : MonoBehaviour
 {
     [SerializeField] private float bounceForce = 6f;
 
