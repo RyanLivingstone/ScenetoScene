@@ -439,9 +439,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15460c0576a4f4a669ee62ee94200f58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   score: 0
   trailDistance: 0.5
   trailSpeed: 2
+=======
+  points: 10
+>>>>>>> Stashed changes
 --- !u!114 &524482946
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -455,6 +459,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+<<<<<<< Updated upstream
+=======
+  movement: {x: 0, y: 0}
+>>>>>>> Stashed changes
 --- !u!95 &524482947
 Animator:
   serializedVersion: 7
@@ -1444,7 +1452,11 @@ BoxCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0.000000007450581, y: -0.0073353276}
   m_SpriteTilingProperty:
+<<<<<<< Updated upstream
     border: {x: 0, y: 0, z: 0, w: 0}
+=======
+    border: {x: 0.01, y: 0.01, z: 0.01, w: 0.02}
+>>>>>>> Stashed changes
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 0.32, y: 0.08}
     newSize: {x: 0.32, y: 0.08}
