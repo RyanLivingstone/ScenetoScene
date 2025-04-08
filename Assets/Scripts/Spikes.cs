@@ -8,9 +8,13 @@ public class Spikes : MonoBehaviour
     void Start()
     {
         initialPosition = transform.position;
+        rb = GetComponent<Rigidbody2D>();
     }
     public void Reset_obj(){
         transform.position = initialPosition;
+    }
+    public void ResetVelocity(){
+        rb.linearVelocity = Vector2.zero;
     }
     // Update is called once per frame
     void Update()
