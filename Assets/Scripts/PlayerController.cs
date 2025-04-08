@@ -10,7 +10,6 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        float input = Input.GetAxis("Horizontal");
         float inputX = Input.GetAxisRaw("Horizontal");
         movement.x = inputX * speed * Time.deltaTime;
 
