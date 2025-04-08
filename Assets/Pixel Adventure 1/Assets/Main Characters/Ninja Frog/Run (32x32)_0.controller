@@ -1,21 +1,13 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
-<<<<<<< HEAD
---- !u!1102 &-1794588444514475380
-=======
 --- !u!1102 &-8168121096644935623
->>>>>>> Natalie
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-  m_Name: FrogRun
-=======
   m_Name: Run
->>>>>>> Natalie
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -28,11 +20,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-<<<<<<< HEAD
-  m_Motion: {fileID: 7400000, guid: 7074a7aebf0bc4be5b8b6988a15f7448, type: 2}
-=======
   m_Motion: {fileID: 7400000, guid: 2d28cf557977a49809551211b894e1b1, type: 2}
->>>>>>> Natalie
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -50,11 +38,7 @@ AnimatorController:
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
-<<<<<<< HEAD
-    m_StateMachine: {fileID: 7761019560598889337}
-=======
     m_StateMachine: {fileID: 4411822642847593446}
->>>>>>> Natalie
     m_Mask: {fileID: 0}
     m_Motions: []
     m_Behaviours: []
@@ -64,11 +48,7 @@ AnimatorController:
     m_IKPass: 0
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
-<<<<<<< HEAD
---- !u!1107 &7761019560598889337
-=======
 --- !u!1107 &4411822642847593446
->>>>>>> Natalie
 AnimatorStateMachine:
   serializedVersion: 6
   m_ObjectHideFlags: 1
@@ -78,11 +58,7 @@ AnimatorStateMachine:
   m_Name: Base Layer
   m_ChildStates:
   - serializedVersion: 1
-<<<<<<< HEAD
-    m_State: {fileID: -1794588444514475380}
-=======
     m_State: {fileID: -8168121096644935623}
->>>>>>> Natalie
     m_Position: {x: 200, y: 0, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
@@ -93,8 +69,4 @@ AnimatorStateMachine:
   m_EntryPosition: {x: 50, y: 120, z: 0}
   m_ExitPosition: {x: 800, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
-<<<<<<< HEAD
-  m_DefaultState: {fileID: -1794588444514475380}
-=======
   m_DefaultState: {fileID: -8168121096644935623}
->>>>>>> Natalie

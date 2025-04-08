@@ -6,12 +6,7 @@ TagManager:
   tags:
   - Spike
   - Collectible
-  tags:
-  - Spike
-  tags:
-  - Spike
-  tags:
-  - Spike
+  - Ground
   layers:
   - Default
   - TransparentFX

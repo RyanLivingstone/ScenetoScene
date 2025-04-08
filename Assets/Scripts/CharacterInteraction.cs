@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CharacterInteraction : MonoBehaviour
 {
@@ -9,6 +10,8 @@ public class CharacterInteraction : MonoBehaviour
         if (other.gameObject.CompareTag("Spike")) 
             {
                 other.gameObject.SetActive(false);
+                Debug.Log("GameObject collided with " + other.name);
+                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             }
     }
 // Start is called once before the first execution of Update after the MonoBehaviour is created
