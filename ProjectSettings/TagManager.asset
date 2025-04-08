@@ -3,22 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-<<<<<<< Updated upstream
-
   tags:
   - Spike
   - Collectible
 
   tags:
   - Spike
-=======
-<<<<<<< HEAD
-  tags: []
-=======
-  tags:
-  - Spike
->>>>>>> 61aafcee67aac7f585402f87ed7abbf798d8618b
->>>>>>> Stashed changes
+
   layers:
   - Default
   - TransparentFX
