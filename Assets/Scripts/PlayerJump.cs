@@ -23,9 +23,11 @@ public class PlayerJump : MonoBehaviour
 
     private bool GetIsGrounded(){
         return Physics2D.Raycast(transform.position, Vector2.down, playerHalfHeight + 0.1f, LayerMask.GetMask("Ground"));
+        Debug.DrawRay(transform.position, Vector2.down * (playerHalfHeight + 0.1f), Color.red);
     }
-    
     private void Jump() {
         rigidBody.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
     }
+    
+    
 }
