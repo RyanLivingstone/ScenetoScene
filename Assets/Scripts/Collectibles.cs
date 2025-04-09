@@ -14,8 +14,6 @@ public class Collectible : MonoBehaviour
 
     private void Collect(GameObject player)
     {
-        Debug.Log("Collected! Points: " + points);
-
         Destroy(gameObject);
     }
 }
