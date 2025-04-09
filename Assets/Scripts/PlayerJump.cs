@@ -13,7 +13,6 @@ public class PlayerJump : MonoBehaviour
     {
         playerHalfHeight = spriteRenderer.bounds.extents.y;
     }
-
     void Update()
     {
         if (Input.GetButtonDown("Jump") && GetIsGrounded()){

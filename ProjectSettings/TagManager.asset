@@ -6,10 +6,6 @@ TagManager:
   tags:
   - Spike
   - Collectible
-
-  tags:
-  - Spike
-
   layers:
   - Default
   - TransparentFX
@@ -18,7 +14,7 @@ TagManager:
   - Water
   - UI
   - Ground
-  - SceneTrigger
+  - 
   - 
   - 
   - 
@@ -44,14 +40,8 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Background
-    uniqueID: 958994263
-    locked: 0
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: Ground
-    uniqueID: 3172292317
     locked: 0
   m_RenderingLayers:
   - Default
