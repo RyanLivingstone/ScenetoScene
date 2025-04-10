@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
     public float speed = 5f;
     private Vector2 movement;
@@ -10,8 +10,9 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        float input = Input.GetAxis("Horizontal");
-        movement.x = input * speed * Time.deltaTime;
+        float inputX = Input.GetAxisRaw("Horizontal");
+        movement.x = inputX * speed * Time.deltaTime;
+
         transform.Translate(movement);
     }
 }

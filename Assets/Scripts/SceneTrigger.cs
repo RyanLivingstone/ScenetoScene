@@ -1,21 +1,21 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SceneChangeTrigger : MonoBehaviour
+public class BoxTrigger : MonoBehaviour
 {
-    public string sceneToLoad;
+    public string nextSceneName = "NextScene"; // Name of the next scene to load
 
-    private void OnTriggerStay2D(Collider2D other)
+    // This method is triggered when another collider enters the trigger collider
+    private void OnTriggerEnter2D(Collider2D other)
     {
+        // Check if the object that collided with the box is the player
         if (other.CompareTag("Player"))
         {
-            float playerBottom = other.bounds.min.y;
-            float triggerTop = GetComponent<Collider2D>().bounds.max.y;
-
-            if (playerBottom > triggerTop)
+            // Check if the player is on top of the box (player's Y position is greater than the box's Y position)
+            if (other.transform.position.y > transform.position.y)
             {
-            Debug.Log("Scene trigger activated!");
-            SceneManager.LoadScene(sceneToLoad);
+                // Load the next scene
+                SceneManager.LoadScene(nextSceneName);
             }
         }
     }
