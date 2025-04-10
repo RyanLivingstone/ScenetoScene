@@ -74,3 +74,7 @@ Assets/Scenes/Scene1.unity
 Assets/Scripts.meta
 Assets/Scripts/PlayerController.cs
 ProjectSettings/TagManager.asset
+
+# OS files
+
+.DS_Store
