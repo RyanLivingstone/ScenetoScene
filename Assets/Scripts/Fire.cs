@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class FireZone : MonoBehaviour
+public class Fire : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D other)
     {
