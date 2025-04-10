@@ -638,8 +638,8 @@ Transform:
   m_GameObject: {fileID: 148073008}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.52, y: 2.51, z: 0}
-  m_LocalScale: {x: 17.612633, y: 7.9842668, z: 1}
+  m_LocalPosition: {x: -5.52, y: 3.0324, z: 0}
+  m_LocalScale: {x: 17.612633, y: 9.595491, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -812,8 +812,8 @@ Transform:
   m_GameObject: {fileID: 719382709}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.61, y: 2.4865, z: 0}
-  m_LocalScale: {x: 17.244675, y: 7.9629307, z: 1}
+  m_LocalPosition: {x: 5.61, y: 3.02, z: 0}
+  m_LocalScale: {x: 17.244675, y: 9.608869, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -899,8 +899,8 @@ Transform:
   m_GameObject: {fileID: 736966971}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.5528, y: -2.57, z: 0}
-  m_LocalScale: {x: 17.612633, y: 7.9842668, z: 1}
+  m_LocalPosition: {x: -5.5134, y: -2.9897, z: 0}
+  m_LocalScale: {x: 17.73416, y: 9.312951, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1318,8 +1318,8 @@ GameObject:
   - component: {fileID: 944812735}
   - component: {fileID: 944812734}
   - component: {fileID: 944812733}
-  - component: {fileID: 944812736}
   - component: {fileID: 944812737}
+  - component: {fileID: 944812738}
   m_Layer: 0
   m_Name: Trophy
   m_TagString: Untagged
@@ -1419,19 +1419,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &944812736
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 944812732}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8c656f077cfee4f388d6146705136e89, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  winScreen: {fileID: 0}
 --- !u!61 &944812737
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1478,6 +1465,19 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.64, y: 0.64}
   m_EdgeRadius: 0
+--- !u!114 &944812738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 944812732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 806d57fdbe58d45c996abdc8cdfbadb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextSceneName: WinScreen
 --- !u!1 &1065888619
 GameObject:
   m_ObjectHideFlags: 0
@@ -1950,8 +1950,8 @@ Transform:
   m_GameObject: {fileID: 1321433080}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.64, y: -2.61, z: 0}
-  m_LocalScale: {x: 17.612633, y: 7.9842668, z: 1}
+  m_LocalPosition: {x: 5.64, y: -3.0358, z: 0}
+  m_LocalScale: {x: 17.612633, y: 9.332552, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -2713,7 +2713,6 @@ GameObject:
   - component: {fileID: 1873045059}
   - component: {fileID: 1873045058}
   - component: {fileID: 1873045057}
-  - component: {fileID: 1873045061}
   - component: {fileID: 1873045060}
   - component: {fileID: 1873045062}
   - component: {fileID: 1873045063}
@@ -2811,7 +2810,7 @@ Transform:
   m_GameObject: {fileID: 1873045056}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.009661195, w: 0.9999533}
-  m_LocalPosition: {x: -10.62, y: -2.42, z: 0}
+  m_LocalPosition: {x: -9.75, y: -2.23, z: 0}
   m_LocalScale: {x: 3.6467, y: 4.4309, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2832,19 +2831,6 @@ MonoBehaviour:
   rigidBody: {fileID: 1873045062}
   spriteRenderer: {fileID: 1873045058}
   jumpForce: 8
---- !u!114 &1873045061
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1873045056}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: beb01cb5127434128a32e230aaf3add1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 5
 --- !u!50 &1873045062
 Rigidbody2D:
   serializedVersion: 5
@@ -2993,7 +2979,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 6
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2

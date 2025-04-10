@@ -12,14 +12,17 @@ EditorBuildSettings:
     path: Assets/Scenes/Scene1.unity
     guid: 6fd4de2c3af7bce4db9e4d56b13b9bcf
   - enabled: 1
+    path: Assets/Scenes/Updated Scene 1.unity
+    guid: 1f51acb1b5ba743758754add1c346ed1
+  - enabled: 1
     path: Assets/Scenes/Scene2.unity
     guid: 58ded5e4360e0a24691dce499bacb68d
   - enabled: 1
     path: Assets/Scenes/Scene 3.unity
     guid: f0928b29e6e61489ab5fd6615f186e53
   - enabled: 1
-    path: Assets/Scenes/Updated Scene 1.unity
-    guid: 1f51acb1b5ba743758754add1c346ed1
+    path: Assets/Scenes/WinScreen.unity
+    guid: 3459c91e3b29d464da1000e13739f0f1
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
