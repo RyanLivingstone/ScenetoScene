@@ -200,8 +200,8 @@ Transform:
   m_GameObject: {fileID: 45147928}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.15, y: 2.47, z: 0}
-  m_LocalScale: {x: 16.586975, y: 7.810166, z: 1}
+  m_LocalPosition: {x: -4.5504003, y: 2.5085, z: 0}
+  m_LocalScale: {x: 15.20528, y: 7.76601, z: 0.9167}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -310,8 +310,8 @@ Transform:
   m_GameObject: {fileID: 476544602}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.98, y: -3.88, z: 0}
-  m_LocalScale: {x: 7.6129074, y: 6.511429, z: 1}
+  m_LocalPosition: {x: 1.0687, y: -3.8048, z: 0}
+  m_LocalScale: {x: 6.978752, y: 6.474615, z: 0.9167}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -439,9 +439,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15460c0576a4f4a669ee62ee94200f58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  score: 0
-  trailDistance: 0.5
-  trailSpeed: 2
   points: 10
 --- !u!114 &524482946
 MonoBehaviour:
@@ -456,7 +453,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  movement: {x: 0, y: 0}
 --- !u!95 &524482947
 Animator:
   serializedVersion: 7
@@ -543,8 +539,8 @@ Transform:
   m_GameObject: {fileID: 524482941}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.89, y: -2.68, z: 0}
-  m_LocalScale: {x: 4.4695, y: 4.3467, z: 1}
+  m_LocalPosition: {x: -8.73, y: -2.47, z: 0}
+  m_LocalScale: {x: 4.097191, y: 4.3221254, z: 0.9167}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -562,7 +558,7 @@ GameObject:
   - component: {fileID: 620356705}
   m_Layer: 0
   m_Name: Gold
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -631,8 +627,8 @@ Transform:
   m_GameObject: {fileID: 620356702}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.57, y: -4.11, z: 0}
-  m_LocalScale: {x: 12.191288, y: 11.082872, z: 1}
+  m_LocalPosition: {x: -8.602, y: -4.0334, z: 0}
+  m_LocalScale: {x: 11.175754, y: 11.020213, z: 0.9167}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -695,7 +691,7 @@ GameObject:
   - component: {fileID: 684932802}
   m_Layer: 0
   m_Name: Dirt
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -764,8 +760,8 @@ Transform:
   m_GameObject: {fileID: 684932801}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.3362, y: -3.2343, z: 0}
-  m_LocalScale: {x: 23.840523, y: 21.490217, z: 1}
+  m_LocalPosition: {x: 4.1450996, y: -3.1628, z: 0}
+  m_LocalScale: {x: 21.854607, y: 21.36872, z: 0.9167}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -783,7 +779,7 @@ GameObject:
   - component: {fileID: 767004750}
   m_Layer: 0
   m_Name: Gold
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -852,8 +848,8 @@ Transform:
   m_GameObject: {fileID: 767004747}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.71, y: -4.11, z: 0}
-  m_LocalScale: {x: 12.191288, y: 11.082872, z: 1}
+  m_LocalPosition: {x: -6.897, y: -4.0334, z: 0}
+  m_LocalScale: {x: 11.175754, y: 11.020213, z: 0.9167}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1008,8 +1004,8 @@ Transform:
   m_GameObject: {fileID: 804454253}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.37, y: -3.907, z: 0}
-  m_LocalScale: {x: 7.6129074, y: 6.511429, z: 1}
+  m_LocalPosition: {x: -2.9187, y: -3.8317, z: 0}
+  m_LocalScale: {x: 6.978752, y: 6.474615, z: 0.9167}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1095,8 +1091,8 @@ Transform:
   m_GameObject: {fileID: 892637762}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.32, y: -2.47, z: 0}
-  m_LocalScale: {x: 16.586975, y: 7.810166, z: 1}
+  m_LocalPosition: {x: 5.0469, y: -2.4029, z: 0}
+  m_LocalScale: {x: 15.20528, y: 7.76601, z: 0.9167}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1114,7 +1110,7 @@ GameObject:
   - component: {fileID: 903679849}
   m_Layer: 0
   m_Name: Gold
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1183,8 +1179,8 @@ Transform:
   m_GameObject: {fileID: 903679846}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.68, y: -2.49, z: 0}
-  m_LocalScale: {x: 12.191288, y: 11.082872, z: 1}
+  m_LocalPosition: {x: -6.8695, y: -2.4228, z: 0}
+  m_LocalScale: {x: 11.175754, y: 11.020213, z: 0.9167}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1316,8 +1312,8 @@ Transform:
   m_GameObject: {fileID: 1031218768}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.23, y: -2.51, z: 0}
-  m_LocalScale: {x: 16.586975, y: 7.810166, z: 1}
+  m_LocalPosition: {x: -4.6237, y: -2.4427, z: 0}
+  m_LocalScale: {x: 15.20528, y: 7.76601, z: 0.9167}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1335,7 +1331,7 @@ GameObject:
   - component: {fileID: 1212592044}
   m_Layer: 0
   m_Name: Platform
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1404,8 +1400,8 @@ Transform:
   m_GameObject: {fileID: 1212592041}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.03, y: 1.33, z: 0}
-  m_LocalScale: {x: 7.232665, y: 10.154148, z: 1}
+  m_LocalPosition: {x: -0.7738, y: 1.3751, z: 0}
+  m_LocalScale: {x: 6.630184, y: 10.09674, z: 0.9167}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1468,7 +1464,7 @@ GameObject:
   - component: {fileID: 1435891774}
   m_Layer: 0
   m_Name: Dirt
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1537,8 +1533,8 @@ Transform:
   m_GameObject: {fileID: 1435891773}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.00011404697, w: 1}
-  m_LocalPosition: {x: 8.4078, y: -3.249, z: 0}
-  m_LocalScale: {x: 27.495817, y: 21.47661, z: 1}
+  m_LocalPosition: {x: 7.8774, y: -3.1774, z: 0}
+  m_LocalScale: {x: 25.205416, y: 21.355188, z: 0.9167}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1556,7 +1552,7 @@ GameObject:
   - component: {fileID: 1469694419}
   m_Layer: 0
   m_Name: Gold
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1625,8 +1621,8 @@ Transform:
   m_GameObject: {fileID: 1469694416}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.83, y: -2.46, z: 0}
-  m_LocalScale: {x: 12.191288, y: 11.082872, z: 1}
+  m_LocalPosition: {x: -5.1737, y: -2.3931, z: 0}
+  m_LocalScale: {x: 11.175754, y: 11.020213, z: 0.9167}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1690,7 +1686,7 @@ GameObject:
   - component: {fileID: 1661337790}
   m_Layer: 0
   m_Name: Gold
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1759,8 +1755,8 @@ Transform:
   m_GameObject: {fileID: 1661337787}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.83, y: -4.1, z: 0}
-  m_LocalScale: {x: 12.191288, y: 11.082872, z: 1}
+  m_LocalPosition: {x: -5.1737, y: -4.0236, z: 0}
+  m_LocalScale: {x: 11.175754, y: 11.020213, z: 0.9167}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1824,7 +1820,7 @@ GameObject:
   - component: {fileID: 1720568023}
   m_Layer: 0
   m_Name: Gold
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1893,8 +1889,8 @@ Transform:
   m_GameObject: {fileID: 1720568020}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.79, y: -0.71, z: 0}
-  m_LocalScale: {x: 12.191288, y: 11.082872, z: 1}
+  m_LocalPosition: {x: -5.137, y: -0.6531, z: 0}
+  m_LocalScale: {x: 11.175754, y: 11.020213, z: 0.9167}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -2026,8 +2022,8 @@ Transform:
   m_GameObject: {fileID: 1758399933}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.247, y: 2.499, z: 0}
-  m_LocalScale: {x: 16.586975, y: 7.810166, z: 1}
+  m_LocalPosition: {x: 4.98, y: 2.5374, z: 0}
+  m_LocalScale: {x: 15.20528, y: 7.76601, z: 0.9167}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -2136,8 +2132,8 @@ Transform:
   m_GameObject: {fileID: 1801269729}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.18, y: -3.907, z: 0}
-  m_LocalScale: {x: 7.6129074, y: 6.511429, z: 1}
+  m_LocalPosition: {x: -0.91130006, y: -3.8317, z: 0}
+  m_LocalScale: {x: 6.978752, y: 6.474615, z: 0.9167}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -2154,7 +2150,7 @@ GameObject:
   - component: {fileID: 1839496052}
   m_Layer: 0
   m_Name: Grass
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2223,8 +2219,8 @@ Transform:
   m_GameObject: {fileID: 1839496051}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.19, y: -0.84, z: 0}
-  m_LocalScale: {x: 21.855995, y: 8.838606, z: 1}
+  m_LocalPosition: {x: 4.0111, y: -0.7823, z: 0}
+  m_LocalScale: {x: 20.03539, y: 8.788635, z: 0.9167}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -2241,7 +2237,7 @@ GameObject:
   - component: {fileID: 1878302038}
   m_Layer: 0
   m_Name: Grass
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2310,8 +2306,8 @@ Transform:
   m_GameObject: {fileID: 1878302037}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.3814, y: -0.8514, z: 0}
-  m_LocalScale: {x: 30.663292, y: 8.911389, z: 1}
+  m_LocalPosition: {x: 7.8532, y: -0.7936, z: 0}
+  m_LocalScale: {x: 28.10904, y: 8.861007, z: 0.9167}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}

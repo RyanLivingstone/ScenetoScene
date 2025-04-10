@@ -4196,7 +4196,6 @@ GameObject:
   - component: {fileID: 1429703990}
   - component: {fileID: 1429703989}
   - component: {fileID: 1429703991}
-  - component: {fileID: 1429703993}
   - component: {fileID: 1429703994}
   - component: {fileID: 1429703997}
   - component: {fileID: 1429703996}
@@ -4295,7 +4294,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 0.5
+  m_GravityScale: 0.75
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -4307,18 +4306,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
---- !u!114 &1429703993
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1429703988}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: db1d0fb028ebf4410954ce28e923343b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1429703994
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5120,7 +5107,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1245.59, y: -723.29}
+  m_AnchoredPosition: {x: -1252.71, y: -721.3}
   m_SizeDelta: {x: 86.3607, y: 15.7593}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1885657161
